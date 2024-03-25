@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(221, 219, 219);
+}
+
+.container{
+display: flex;
+}
+#input{
+border: 2px solid black;
+padding:15px 20px;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+#btn{
+    background-color: blue;
+    color:White;
+    padding: 0px 10px;
+    border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+#TaskList{
+    margin-top: 40px;
+    background-color: white;
+    width:700px;
+    min-height:500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 75%);
+    padding-top: 10px;
+}
+#TaskList:focus{
+    outline: none;
+}
+#btn{
+    background-color: blue;
+    color:White;
+    padding: 0px 10px;
+    border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+#DelTask{
+    background-color: blue;
+    color:White;
+    padding: 10px 20px;
+    border-radius: 10px;
+border-top-right-radius: 10px;
+font-size: 15px;
+font-weight: bold;
+font-style: italic;
+}
+.listContainer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: rgb(206, 200, 200);
+   align-items: center;
+   margin-bottom: 20px;
+}
+li{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
